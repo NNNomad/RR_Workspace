@@ -1,0 +1,5 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8.10)
+PROJECT(gdbus_ipc)
+add_subdirectory(Sources/Client)
+add_subdirectory(Sources/Server)
+#add_subdirectory(gdbus)

@@ -1,0 +1,8 @@
+/home/robotarm/workspace/gdbus_demo2/build/CMakeFiles/edit_cache.dir
+/home/robotarm/workspace/gdbus_demo2/build/CMakeFiles/rebuild_cache.dir
+/home/robotarm/workspace/gdbus_demo2/build/Sources/Client/CMakeFiles/edit_cache.dir
+/home/robotarm/workspace/gdbus_demo2/build/Sources/Client/CMakeFiles/client_main.dir
+/home/robotarm/workspace/gdbus_demo2/build/Sources/Client/CMakeFiles/rebuild_cache.dir
+/home/robotarm/workspace/gdbus_demo2/build/Sources/Server/CMakeFiles/edit_cache.dir
+/home/robotarm/workspace/gdbus_demo2/build/Sources/Server/CMakeFiles/server.dir
+/home/robotarm/workspace/gdbus_demo2/build/Sources/Server/CMakeFiles/rebuild_cache.dir

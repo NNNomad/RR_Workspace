@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "string.h": "c",
+        "string": "c",
+        "libgdbus_s.h": "c",
+        "stdbool.h": "c",
+        "client.h": "c",
+        "ctype.h": "c",
+        "stdlib.h": "c",
+        "gio.h": "c"
+    }
+}

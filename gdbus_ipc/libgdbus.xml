@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+  <interface name="com.gdbus">
+    <method name="SetTestBool">
+      <arg name="Set_bool" type="b" direction="in"/>
+    </method>
+    <method name="SetTestInt">
+      <arg name="Set_int" type="i" direction="in"/>
+    </method>
+    <method name="SetTestDouble">
+      <arg name="Set_double" type="d" direction="in"/>
+    </method>
+    <method name="SetTestString">
+      <arg name="Set_string" type="s" direction="in"/>
+    </method>
+    <method name="SetTestInfo">
+      <arg name="Set_info" type="(bids)" direction="in"/>
+    </method>
+
+    <method name="GetTestBool">
+      <arg name="Get_bool" type="b" direction="out"/>
+    </method>
+    <method name="GetTestInt">
+      <arg name="Get_int" type="i" direction="out"/>
+    </method>
+    <method name="GetTestDouble">
+      <arg name="Get_double" type="d" direction="out"/>
+    </method>
+    <method name="GetTestString">
+      <arg name="Get_string" type="s" direction="out"/>
+    </method>
+    <method name="GetTestInfo">
+      <arg name="Get_info" type="(bids)" direction="out"/>
+    </method>
+
+    <signal name="SendTestBool">
+      <arg name="Send_bool" type="b"/>
+    </signal>
+    <signal name="SendTestInt">
+      <arg name="Send_int" type="i"/>
+    </signal>
+    <signal name="SendTestDouble">
+      <arg name="Send_double" type="d"/>
+    </signal>
+    <signal name="SendTestString">
+      <arg name="Send_string" type="s"/>
+    </signal>
+    <signal name="SendTestInfo">
+      <arg name="Send_info" type="(bids)"/>
+    </signal>
+  </interface>
+</node>

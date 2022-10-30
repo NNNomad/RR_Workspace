@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/server.dir/server.c.o CMakeFiles/server.dir/__/gdbus/libgdbus_s.c.o  -o server -rdynamic -lpthread -lgio-2.0 -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lrt -lglib-2.0 

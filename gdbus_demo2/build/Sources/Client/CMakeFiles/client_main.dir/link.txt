@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/client_main.dir/client_main.c.o CMakeFiles/client_main.dir/__/gdbus/libgdbus_s.c.o  -o client_main -rdynamic -lpthread -lgio-2.0 -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lrt -lglib-2.0 
