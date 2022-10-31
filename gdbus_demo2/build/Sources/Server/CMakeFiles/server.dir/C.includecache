@@ -31,6 +31,10 @@ libgdbus_s.h
 ../Include/libgdbus_s.h
 
 /home/robotarm/workspace/gdbus_demo2/Sources/Server/server.c
+server_settest.c
+/home/robotarm/workspace/gdbus_demo2/Sources/Server/server_settest.c
+
+/home/robotarm/workspace/gdbus_demo2/Sources/Server/server_settest.c
 server.h
 /home/robotarm/workspace/gdbus_demo2/Sources/Server/server.h
 gdbus.h

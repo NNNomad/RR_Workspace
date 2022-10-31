@@ -252,6 +252,7 @@ Sources/Server/CMakeFiles/server.dir/server.c.o: ../Include/gdbus.h
 Sources/Server/CMakeFiles/server.dir/server.c.o: ../Include/libgdbus_s.h
 Sources/Server/CMakeFiles/server.dir/server.c.o: ../Include/server.h
 Sources/Server/CMakeFiles/server.dir/server.c.o: ../Sources/Server/server.c
+Sources/Server/CMakeFiles/server.dir/server.c.o: ../Sources/Server/server_settest.c
 Sources/Server/CMakeFiles/server.dir/server.c.o: /usr/include/glib-2.0/gio/gaction.h
 Sources/Server/CMakeFiles/server.dir/server.c.o: /usr/include/glib-2.0/gio/gactiongroup.h
 Sources/Server/CMakeFiles/server.dir/server.c.o: /usr/include/glib-2.0/gio/gactiongroupexporter.h

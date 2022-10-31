@@ -23,6 +23,16 @@ glib.h
 -
 libgdbus_s.h
 ../Include/libgdbus_s.h
+gdbus.h
+../Include/gdbus.h
+
+../Include/client_gettest.h
+client.h
+../Include/client.h
+
+../Include/client_settest.h
+client.h
+../Include/client.h
 
 ../Include/gdbus.h
 gio/gio.h
@@ -33,18 +43,22 @@ gio/gio.h
 -
 
 /home/robotarm/workspace/gdbus_demo2/Sources/Client/client.c
-gdbus.h
-/home/robotarm/workspace/gdbus_demo2/Sources/Client/gdbus.h
 client.h
 /home/robotarm/workspace/gdbus_demo2/Sources/Client/client.h
 
 /home/robotarm/workspace/gdbus_demo2/Sources/Client/client_main.c
 settest.c
 /home/robotarm/workspace/gdbus_demo2/Sources/Client/settest.c
+gettest.c
+/home/robotarm/workspace/gdbus_demo2/Sources/Client/gettest.c
+
+/home/robotarm/workspace/gdbus_demo2/Sources/Client/gettest.c
+client_gettest.h
+/home/robotarm/workspace/gdbus_demo2/Sources/Client/client_gettest.h
 
 /home/robotarm/workspace/gdbus_demo2/Sources/Client/settest.c
-client.h
-/home/robotarm/workspace/gdbus_demo2/Sources/Client/client.h
+client_settest.h
+/home/robotarm/workspace/gdbus_demo2/Sources/Client/client_settest.h
 client.c
 /home/robotarm/workspace/gdbus_demo2/Sources/Client/client.c
 

@@ -249,10 +249,13 @@ Sources/Client/CMakeFiles/client_main.dir/__/gdbus/libgdbus_s.c.o: /usr/include/
 Sources/Client/CMakeFiles/client_main.dir/__/gdbus/libgdbus_s.c.o: /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h
 
 Sources/Client/CMakeFiles/client_main.dir/client_main.c.o: ../Include/client.h
+Sources/Client/CMakeFiles/client_main.dir/client_main.c.o: ../Include/client_gettest.h
+Sources/Client/CMakeFiles/client_main.dir/client_main.c.o: ../Include/client_settest.h
 Sources/Client/CMakeFiles/client_main.dir/client_main.c.o: ../Include/gdbus.h
 Sources/Client/CMakeFiles/client_main.dir/client_main.c.o: ../Include/libgdbus_s.h
 Sources/Client/CMakeFiles/client_main.dir/client_main.c.o: ../Sources/Client/client.c
 Sources/Client/CMakeFiles/client_main.dir/client_main.c.o: ../Sources/Client/client_main.c
+Sources/Client/CMakeFiles/client_main.dir/client_main.c.o: ../Sources/Client/gettest.c
 Sources/Client/CMakeFiles/client_main.dir/client_main.c.o: ../Sources/Client/settest.c
 Sources/Client/CMakeFiles/client_main.dir/client_main.c.o: /usr/include/glib-2.0/gio/gaction.h
 Sources/Client/CMakeFiles/client_main.dir/client_main.c.o: /usr/include/glib-2.0/gio/gactiongroup.h

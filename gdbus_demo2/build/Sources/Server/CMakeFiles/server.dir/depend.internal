@@ -253,6 +253,7 @@ Sources/Server/CMakeFiles/server.dir/server.c.o
  ../Include/libgdbus_s.h
  ../Include/server.h
  /home/robotarm/workspace/gdbus_demo2/Sources/Server/server.c
+ /home/robotarm/workspace/gdbus_demo2/Sources/Server/server_settest.c
  /usr/include/glib-2.0/gio/gaction.h
  /usr/include/glib-2.0/gio/gactiongroup.h
  /usr/include/glib-2.0/gio/gactiongroupexporter.h

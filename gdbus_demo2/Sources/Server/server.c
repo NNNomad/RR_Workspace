@@ -1,53 +1,4 @@
-#include "server.h"
-#include "gdbus.h"
-
-static GMainLoop *pLoop = NULL;
-static ComGdbus *pSkeleton = NULL;
-static gchar SavedTest_s[100] = {0};
-
-static gboolean SendTestString(gconstpointer p);
-static gboolean SetTestString(ComGdbus *object, GDBusMethodInvocation *invocation, const gchar *in_arg, gpointer user_data);
-static void *run(void* arg);
-
-static void GBusAcquired_Callback(GDBusConnection *connection,
-                         const gchar *name,
-                         gpointer user_data);
-static void GBusNameAcquired_Callback (GDBusConnection *connection,
-                             const gchar *name,
-                             gpointer user_data);
-static void GBusNameLost_Callback (GDBusConnection *connection,
-                         const gchar *name,
-                         gpointer user_data);
-
-static gboolean SendTestString(gconstpointer p)          
-{                                                         
-    g_print("Server SendTestString is called.\n");            
-
-    com_gdbus_emit_send_test_string (pSkeleton, SavedTest_s);
-
-    return TRUE;                                          
-} 
-
-static gboolean SetTestString(ComGdbus *object,
-                           GDBusMethodInvocation *invocation,
-                           const gchar           *in_arg,
-                           gpointer               user_data)
-{
-    g_print("Server SetTestString is called. Test is : %s.\n", in_arg);
-
-    if (strlen(in_arg)+1 < 100) 
-    {
-        memcpy(SavedTest_s, in_arg, strlen(in_arg)+1);
-
-        g_print("Server Save Text is : %s.\n", SavedTest_s);
-    }
-
-    in_arg = "Server Save Text Success";
-
-    com_gdbus_complete_set_test_string(object, invocation, in_arg);
-
-    return TRUE;
-}
+#include "server_settest.c"
 
 //主事件循环
 static void *run(void* arg)
@@ -63,6 +14,9 @@ static void GBusAcquired_Callback(GDBusConnection *connection,
 
     pSkeleton = com_gdbus_skeleton_new();
 
+    (void) g_signal_connect(pSkeleton, "handle-set-test-bool", G_CALLBACK(SetTestBool), NULL);
+    (void) g_signal_connect(pSkeleton, "handle-set-test-int", G_CALLBACK(SetTestInt), NULL);
+    (void) g_signal_connect(pSkeleton, "handle-set-test-double", G_CALLBACK(SetTestDouble), NULL);
     (void) g_signal_connect(pSkeleton, "handle-set-test-string", G_CALLBACK(SetTestString), NULL);
 
     (void) g_dbus_interface_skeleton_export(G_DBUS_INTERFACE_SKELETON(pSkeleton),

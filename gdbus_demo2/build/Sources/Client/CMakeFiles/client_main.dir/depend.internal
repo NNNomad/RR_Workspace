@@ -250,10 +250,13 @@ Sources/Client/CMakeFiles/client_main.dir/__/gdbus/libgdbus_s.c.o
  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h
 Sources/Client/CMakeFiles/client_main.dir/client_main.c.o
  ../Include/client.h
+ ../Include/client_gettest.h
+ ../Include/client_settest.h
  ../Include/gdbus.h
  ../Include/libgdbus_s.h
  /home/robotarm/workspace/gdbus_demo2/Sources/Client/client.c
  /home/robotarm/workspace/gdbus_demo2/Sources/Client/client_main.c
+ /home/robotarm/workspace/gdbus_demo2/Sources/Client/gettest.c
  /home/robotarm/workspace/gdbus_demo2/Sources/Client/settest.c
  /usr/include/glib-2.0/gio/gaction.h
  /usr/include/glib-2.0/gio/gactiongroup.h

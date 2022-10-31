@@ -1,5 +1,6 @@
 #ifndef _SERVER_H_
 #define _SERVER_H_
+#define STRING_BUFFER_SIZE 100
 
 #include <string.h>
 #include <stdlib.h>
