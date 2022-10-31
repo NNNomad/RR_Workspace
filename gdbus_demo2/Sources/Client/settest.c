@@ -45,9 +45,11 @@ bool SetTestDouble()
 
 bool SetTestString()
 {
-    gboolean *out_arg = NULL;
+    gchar *out_arg = NULL;
     GError *gMethoderror = NULL;
-    scanf("请输入一个string数据：%s\n", Test_s);
+    printf("请输入一个string数据：");
+    scanf("%s", Test_s);
+    printf("\n");
 
     SetTestString_Method(Test_s, &out_arg, &gMethoderror);
 

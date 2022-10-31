@@ -1,17 +1,6 @@
 #include "settest.c"
 
 static int key = 0;
-static gint Test_i;
-bool SetTestInt()
-{
-    gint *out_arg = NULL;
-    GError *gMethoderror = NULL;
-    scanf("请输入一个int数据：%d\n", &Test_i);
-
-    SetTestInt_Method(Test_i, out_arg, &gMethoderror);
-
-    return TRUE;       
-}
 
 void ClientSetTest()
 {

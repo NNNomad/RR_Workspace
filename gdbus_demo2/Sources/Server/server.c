@@ -94,7 +94,7 @@ static void GBusNameLost_Callback (GDBusConnection *connection,
         g_print("GBusNameLost_Callback, Error: Failed to connect to dbus. \n");
     }else{
         g_print("GBusNameLost_Callback, Error: Failed to get dbus name : %s\n", COM_GDBUS_DEMO_NAME);
-}
+    }
     g_main_loop_quit(pLoop);
 }
 
